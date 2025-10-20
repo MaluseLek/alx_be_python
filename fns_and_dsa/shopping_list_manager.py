@@ -17,7 +17,7 @@ def remove_item(list_item, shopping_list):
     else:
         raise ItemNotFoundError(f"{list_item} is not found in the shopping list.")
 
-def display_menu(shopping_list):
+def display_list():
     print("Shopping List:")
     count = 1
     for item in shopping_list:
