@@ -40,7 +40,7 @@ def main():
 
         if choice == '1':
             # ADD
-            item_name = input("Enter the name of item to add: ")
+            item_name = input("Enter the item to add: ")
             add_item(item_name, shopping_list)
             print(f"{item_name} has been added to the Shopping List.")
             pass
